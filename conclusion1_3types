@@ -1,0 +1,6 @@
+一、最优化问题：return max( OPT(i) or OPT(i-1)+arr[i] )
+
+二、子集是否满足条件问题(True/False)：return (Subset(arr, i-1, s-arr[i] or Subset(arr,i-1,s))
+
+三、leetcode_55，python解决方案，时间复杂度n^2；自己给出的解决方法，也是小形的动态规划--记住上一次计算的结果，避免重复，在本题的体现上
+似乎更简单，时间复杂度只有n（灵活处理动态规划问题，要记住核心，those who can't remember the past were condemn to repeat it）
